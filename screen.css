@@ -1,0 +1,357 @@
+@media screen and (max-width: 1200px){
+    header .main{
+        width: 100%;
+        padding-right: 120px;
+    }
+    .main .left-item{
+        width: 550px;
+    }
+    .left-item img{
+        width: 300px;
+    }
+
+   .first-section .div{
+     max-width: 270px;
+   }
+   .first-section .down-items{
+     width: 100%;
+     max-width: 100%;
+   }
+   .down-items .img{
+    width: 450px;
+    height: 300px;
+   }
+   .img img{
+    width: 100%;
+    height: 100%;
+   }
+   .down-items .list-text{
+    min-width: 450px;
+   }
+}
+
+/* second section */
+.crypto-section{
+    height: 110vh;
+}
+.crypto-section .cryptos{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+}
+.cryptos div{
+    width: 430px;
+}
+
+@media screen and (max-width: 995px){
+    header{
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 150px;
+    }
+   header .nav-bar {
+        padding:  8px 30px;
+    }
+    .nav-bar .logo-img{
+        width: 130px;
+        height: 40px;
+    }
+   .nav-bar .nav-links ul{
+        position: fixed;
+        left: 0;
+        top: 100px;
+        z-index: 11;
+        display: block;
+        background-color: #fff;
+        height: 60vh;
+        width: 100%;
+        padding: 30px;
+        transform: translateY(-150%);
+        transition: 1s;
+   }
+   ul a{
+    padding: 10px;
+   }
+    .nav-bar .fa-bars{
+        display: block;
+    }
+   .nav-links a{
+    width: 100%;
+    display: block;
+    color: #004767;
+    border-bottom: 1px solid grey;
+   }
+   header .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
+    gap: 50px;
+    padding-bottom: 100px;
+   }
+   .div-two img{
+    width: 400px;
+    height: 320px;
+   }
+   .right-item small{
+    max-width: 100%;
+   }
+
+   /* first section */
+   .first-section {
+    gap: 0px;
+   }
+   .first-section .top-items{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .top-items{
+    transform: translateY(-7%);
+    padding: 0 85px;
+   }
+   .top-items .div{
+     max-width: 700px;
+     height: 600px;
+   }
+
+   .div p{
+    line-height: 1.5;
+   }
+   .top-items .research{
+    height: 170px;
+    padding: 20px;
+   }
+
+   .first-section .down-items{
+    flex-direction: column;
+    justify-content: center;
+   }
+   .down-items .img{
+    width: 700px;
+   }
+   .img img{
+    width: 100%;
+    height: 390px;
+}
+
+.second-section{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding:  100px;
+
+}
+.second-section .left-text{
+    max-width: 100%;
+}
+.second-section .right-div{
+    gap: 50px;
+}
+.right-div .each-item{
+    max-width: 450px;
+    display: flex;
+    gap: 20px;
+}
+.each-item .texts{
+    max-width: 100%;
+}
+.each-item .logo{
+    width: 100px;
+    max-width: 100px;
+}
+
+.crypto-section .head-text{
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.cryptos div{
+    max-width: 350px;
+}
+
+/* .text-section{
+    
+} */
+.text-section .text1{
+    width: 330px;
+    max-width: 330px;
+}
+.text-section .text2{
+    width: 330px;
+    max-width: 330px;
+    padding-top: 100px;
+}
+
+footer{
+    height: 100vh;
+}
+footer main{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+}
+
+@media screen and (max-width: 750px){
+   header .main{
+    max-width: 100%;
+    justify-content: center;
+   }
+   .main .left-item h1{
+    font-size: 2.5rem;
+   }
+   .main .div-two img{
+     width: 350px;
+     height: 230px;
+     /* max-width: 200px; */
+   }
+
+   .first-section .top-items .div{
+      width: 470px;
+      height: fit-content;
+   }
+   .first-section .down-items{
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+   }
+   .down-items .img{
+     width: 470px;
+     max-width: 470px;
+   }
+   .down-items img{
+     width: 100%;
+     height: 300px;
+   }
+
+   .second-section .right-div{
+      gap: 20px;
+   }
+
+   .crypto-section{
+        width: 100%;
+        height: 200vh;
+        justify-content: center;
+   }
+   .crypto-section .head-text{
+    display: flex;
+    justify-content: center;
+      padding-bottom: 190px;
+      min-width: 400px;
+   }
+   .head-text .two-text{
+    width: 100%;
+   }
+   .crypto-section .cryptos{
+      grid-template-columns: 1fr;
+   }
+  .crypto-section .cryptos div{
+      width: 500px;
+      max-width: 500px;
+   }
+
+   /* text section */
+   .text-section{
+      width: 100%;
+      height: fit-content;
+      padding: 100px;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px;
+   }
+   .text-section .text1{
+    width: 500px;
+    max-width: 360px;
+   }
+   .text-section .text2{
+    width: 500px;
+    max-width: 360px;
+    margin-top: -140px;
+   }
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+    }
+    
+    header .main{
+        padding:  30px ;
+        margin-top: -50px;
+        padding-bottom: 60px;
+    }
+    .main .div-two img{
+        width: 420px;
+        max-width: 360px;
+        height: 340px;
+        transform: translateX(0%);
+        padding: 60px 0 0 0px;
+    }
+    .main .left-item h1{
+        font-size: 2.3rem;
+    }
+
+    .first-section {
+        gap: 0px;
+       }
+       .first-section .top-items .div{
+        max-width: 360px;
+       }
+       
+       .down-items .img{
+        max-width: 360px;
+       }
+       .down-items .list-text{
+        max-width: 360px;
+        padding: 0 60px;
+       }
+       .list-text h1{
+         font-size: 1.5rem;
+       }
+       .second-section{
+        padding: 100px 30px;
+       }
+       .second-section .right-div{
+          grid-template-columns: 1fr;
+       }
+
+       .crypto-section{
+        margin-top: 20px;
+        padding: 70px 30px;
+        height: 140vh;
+       }
+       .crypto-section .cryptos{
+         margin-top: 70px;
+       }
+      .crypto-section .cryptos div{
+        width: 420px;
+        max-width: 360px;
+       }
+       .crypto-section .head-text{
+        gap: 30px;
+       }
+       .head-text h1{
+        max-width: 80%;
+       }
+       .head-text .two-text{
+        max-width: 50%;
+        padding: 30px;
+       }
+
+       
+       footer{
+        height: 50vh;
+         max-height: 50vh;
+         padding:  50px 60px;
+       }
+       footer main{
+        gap: 0px;
+       }
+}
+
